@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "micro-sonic",
-  description: "micro-sonic",
+  title: "HP-Printer Support",
+  description: "HP-Printer Support",
 };
 
 export default function RootLayout({ children }) {
