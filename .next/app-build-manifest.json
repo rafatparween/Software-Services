@@ -11,11 +11,21 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/SoftwareServices/page": [
+    "/customsoftware/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/SoftwareServices/page.css",
-      "static/chunks/app/SoftwareServices/page.js"
+      "static/css/app/customsoftware/page.css",
+      "static/chunks/app/customsoftware/page.js"
+    ],
+    "/customsoftware/Pages/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/customsoftware/Pages/page.js"
+    ],
+    "/customsoftware/Pages/install/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/customsoftware/Pages/install/page.js"
     ]
   }
 }
