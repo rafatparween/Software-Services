@@ -288,29 +288,29 @@ function Home() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredModels, setFilteredModels] = useState([]);
 
-  // const printerModels = [
-  //   'HP OfficeJet Pro 9010 All-in-One Printer',
-  //   'HP OfficeJet Pro 9000 Series',
-  //   'HP OfficeJet Pro 9010e All-in-One Printer',
-  //   'HP OfficeJet Pro 9015 All-in-One Printer',
-  //   'HP OfficeJet Pro 9014 All-in-One Printer',
-  //   'HP OfficeJet Pro 9018 All-in-One Printer',
-  //   'HP ENVY 120 e-All-in-One Printer series',
-  //   'HP ENVY 4500 e-All-in-One Printer series',
-  //   'HP ENVY 4510 All-in-One Printer series',
-  //   // 'HP ENVY 4520 e-All-in-One Printer series',
-  //   // 'HP ENVY 5000 All-in-One Printer series',
-  //   // 'HP ENVY 5500 All-in-One Printer series',
-  //   // 'HP ENVY 5540 All-in-One Printer series',
-  //   // 'HP ENVY 5600 e-All-in-One Printer series',
-  //   // 'HP ENVY 7600 e-All-in-One Printer series',
-  //   // 'HP ENVY Photo 6200 All-in-One Printer series',
-  //   // 'HP Deskjet D1360 Printer series',
-  //   // 'HP Deskjet Ink Advantage Ultra 4800 series',
-  //   // 'HP DeskJet Ink Advantage 2800 All-in-One Printer series',
-  //   // 'HP DeskJet Ink Advantage 5200 All-in-One Printer series',
-  //   // 'HP Deskjet D1330 Printer series',
-  // ];
+  const printerModels = [
+    'HP OfficeJet Pro 9010 All-in-One Printer',
+    'HP OfficeJet Pro 9000 Series',
+    'HP OfficeJet Pro 9010e All-in-One Printer',
+    'HP OfficeJet Pro 9015 All-in-One Printer',
+    'HP OfficeJet Pro 9014 All-in-One Printer',
+    'HP OfficeJet Pro 9018 All-in-One Printer',
+    'HP ENVY 120 e-All-in-One Printer series',
+    'HP ENVY 4500 e-All-in-One Printer series',
+    'HP ENVY 4510 All-in-One Printer series',
+    // 'HP ENVY 4520 e-All-in-One Printer series',
+    // 'HP ENVY 5000 All-in-One Printer series',
+    // 'HP ENVY 5500 All-in-One Printer series',
+    // 'HP ENVY 5540 All-in-One Printer series',
+    // 'HP ENVY 5600 e-All-in-One Printer series',
+    // 'HP ENVY 7600 e-All-in-One Printer series',
+    // 'HP ENVY Photo 6200 All-in-One Printer series',
+    // 'HP Deskjet D1360 Printer series',
+    // 'HP Deskjet Ink Advantage Ultra 4800 series',
+    // 'HP DeskJet Ink Advantage 2800 All-in-One Printer series',
+    // 'HP DeskJet Ink Advantage 5200 All-in-One Printer series',
+    // 'HP Deskjet D1330 Printer series',
+  ];
 
   const handleSearchChange = (event) => {
     const value = event.target.value;
@@ -341,16 +341,18 @@ function Home() {
 
   return (
     <>
+      <div className='bg-white' >
       <NavbarSection />
+      
       <div className="h-[530px] mt-[13px] ">
         <section
           className="relative flex flex-col justify-center items-center text-center py-12 h-[450px] bg-cover bg-center"
           style={{
-            backgroundImage: "url('/topback.png')"
+            backgroundImage: "url('/background.jpg')"
           }}
         >
           {/* Overlay div for background color */}
-          {/* <div className="absolute inset-0 bg-[#007DBA] opacity-60"></div> */}
+          <div className="absolute inset-0 bg-[#007DBA] opacity-60"></div>
 
           {/* Content of the section */}
           <div className="relative z-10">
@@ -358,7 +360,7 @@ function Home() {
           </div>
 
           <div className=" inset-0 opacity-80"></div>
-          <div className="relative z-10 text-white  2xl:ml-[-825px] xl:ml-[-567px] 2xl:mt-[164px] xl:mt-[178px]  ">
+          <div className="relative z-10 text-white  2xl:ml-[-825px] xl:ml-[-567px] 2xl:mt-[28px] xl:mt-[-5px]  ">
             <h1 className="text-4xl font-hp-simplified text-[44px] xl:text-[50px] 2xl:text-[56px] xl:ml-[32px] 2xl:ml-[157px] mx-4 sm:mx-8 md:mx-12">
               Get started with your Printer
             </h1>
@@ -389,7 +391,7 @@ function Home() {
 
             {/* Dropdown for filtered models */}
             {filteredModels.length > 0 && (
-              <ul className="absolute left-0 mt-1 w-full max-w-lg bg-white border border-gray-300 rounded-lg shadow-lg z-10 2xl:ml-[314px] xl:ml-[277px] text-black">
+              <ul className="absolute left-0 mt-1 w-full max-w-lg bg-white border border-gray-300 rounded-lg shadow-lg z-10 2xl:ml-[499px] xl:ml-[319px] text-black">
                 {filteredModels.map((model) => (
                   <li
                     key={model}
@@ -411,13 +413,13 @@ function Home() {
 
 
           <div className="flex justify-end  ">
-            <img
+            {/* <img
               src="/setup.png"
               alt="Printer setup devices"
               width={403}
               height={196}
               className="object-contain 2xl:ml-[893px] 2xl:mt-[-46px] xl:mt-[-21px] xl:ml-[631px] 2xl:mt-[-43px] xl:mt-[-92px]"
-            />
+            /> */}
           </div>
 
         </section>
@@ -454,6 +456,7 @@ function Home() {
       </div>
       <FooterSection />
       <JivoChat />
+      </div>
 
     </>
   );

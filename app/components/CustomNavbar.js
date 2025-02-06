@@ -30,12 +30,12 @@ const Navbar = () => {
         <ul className="ml-[5%] flex gap-4 md:gap-8 text-[#1C8DCE] text-lg md:text-[24px] lg:ml-[80px] xl:ml-[236px] 2xl:ml-[179px]">
           <Link legacyBehavior href="/" passHref>
             <div className="flex items-center mr-4 xl:ml-[-60px] 2xl:ml-[2px]">
-              <Image
+              {/* <Image
                 src="/hplogo.png" // Replace with the correct path to your logo
                 alt="HP Logo"
                 width={53}
                 height={53}
-              />
+              /> */}
             </div>
           </Link>
         </ul>

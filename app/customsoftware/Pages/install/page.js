@@ -258,17 +258,17 @@ function Printersearch() {
   }
 
   return (
-    <>
+    <div className="bg-white">
       <NavbarSection />
       <div className={`h-[530px] mt-[13px] ${isPopupVisible ? "blur-sm" : ""}`}>
         <section
           className="flex flex-col justify-center items-center text-center py-12 relative bg-cover bg-center h-[530px]"
           style={{
             backgroundImage:
-              "url(/topback.png)",
+              "url(/background.jpg)",
           }}
         >
-          {/* <div className="absolute inset-0 bg-[#007DBA] opacity-60"></div> */}
+          <div className="absolute inset-0 bg-[#007DBA] opacity-60"></div>
 
           <div className="relative z-10 text-white 2xl:ml-[-392px] xl:ml-[-85px] mt-[-74px]">
             <h1 className="text-[54px] mb-4 xl:ml-[-145px] 2xl:ml-[-63px]">
@@ -320,7 +320,7 @@ function Printersearch() {
       {isPopupVisible && (
         <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 z-50">
         <div className="bg-white w-[800px] h-[600px] rounded-lg shadow-lg p-8 flex flex-col justify-center items-center">
-          <h2 className="text-[32px] font-semibold mb-6">Gathering device details...</h2>
+          <h2 className="text-[32px] font-semibold mb-6 text-black">Gathering device details...</h2>
       
           <div className="bg-white shadow-lg rounded-lg p-8 max-w-xl w-full text-center">
             {/* Top Section: Icons and Animated Progress Bar */}
@@ -369,7 +369,7 @@ function Printersearch() {
       )}
       <Storepage />
       <FooterSection />
-    </>
+    </div>
   );
 }
 

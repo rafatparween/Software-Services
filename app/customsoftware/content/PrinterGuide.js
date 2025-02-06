@@ -17,7 +17,7 @@ export default function PrinterGuide() {
             </h4>
 
             {/* List of steps */}
-            <ul className="list-disc pl-5 text-[14px] sm:text-[16px] font-normal">
+            <ul className="list-disc pl-5 text-[14px] sm:text-[16px] font-normal text-black">
               <li>Check the estimated ink levels.</li>
               <li>Load a plain white paper in the paper tray.</li>
               <li>

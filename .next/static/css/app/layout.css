@@ -2540,6 +2540,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    background-color: white;
 }
 
 
@@ -3436,6 +3437,26 @@ body {
     margin-top: 63px;
   }
 
+  .xl\:mt-\[px\] {
+    margin-top: px;
+  }
+
+  .xl\:mt-\[-5pxpx\] {
+    margin-top: -5pxpx;
+  }
+
+  .xl\:mt-\[-5px\] {
+    margin-top: -5px;
+  }
+
+  .xl\:ml-\[px\] {
+    margin-left: px;
+  }
+
+  .xl\:ml-\[319px\] {
+    margin-left: 319px;
+  }
+
   .xl\:h-\[327px\] {
     height: 327px;
   }
@@ -3706,6 +3727,30 @@ body {
 
   .\32xl\:mt-\[9px\] {
     margin-top: 9px;
+  }
+
+  .\32xl\:ml-\[px\] {
+    margin-left: px;
+  }
+
+  .\32xl\:ml-\[4px\] {
+    margin-left: 4px;
+  }
+
+  .\32xl\:ml-\[499px\] {
+    margin-left: 499px;
+  }
+
+  .\32xl\:mt-\[px\] {
+    margin-top: px;
+  }
+
+  .\32xl\:mt-\[2px\] {
+    margin-top: 2px;
+  }
+
+  .\32xl\:mt-\[28px\] {
+    margin-top: 28px;
   }
 
   .\32xl\:h-\[327px\] {
