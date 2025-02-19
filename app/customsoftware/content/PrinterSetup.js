@@ -56,7 +56,7 @@ export default function PrinterSetup() {
         {/* Image Section */}
         <div className="w-full md:w-1/2">
           <Image
-            src="/Printer.avif" // Replace with the actual path to your image
+            src="/thinker.jpg" // Replace with the actual path to your image
             alt="Printer Setup"
             width={800} // Increased width
             height={500} // Increased height

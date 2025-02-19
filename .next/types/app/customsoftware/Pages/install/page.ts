@@ -1,4 +1,4 @@
-// File: /home/ng/software_services/app/customsoftware/Pages/install/page.js
+// File: /home/navgurukul-pune/software_services/app/customsoftware/Pages/install/page.js
 import * as entry from '../../../../../../app/customsoftware/Pages/install/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

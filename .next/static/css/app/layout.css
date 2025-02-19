@@ -3357,16 +3357,16 @@ body {
     margin-left: 236px;
   }
 
-  .xl\:ml-\[277px\] {
-    margin-left: 277px;
-  }
-
   .xl\:ml-\[310px\] {
     margin-left: 310px;
   }
 
   .xl\:ml-\[317px\] {
     margin-left: 317px;
+  }
+
+  .xl\:ml-\[319px\] {
+    margin-left: 319px;
   }
 
   .xl\:ml-\[32px\] {
@@ -3417,6 +3417,10 @@ body {
     margin-top: -21px;
   }
 
+  .xl\:mt-\[-5px\] {
+    margin-top: -5px;
+  }
+
   .xl\:mt-\[-92px\] {
     margin-top: -92px;
   }
@@ -3425,36 +3429,12 @@ body {
     margin-top: 116px;
   }
 
-  .xl\:mt-\[178px\] {
-    margin-top: 178px;
-  }
-
   .xl\:mt-\[25px\] {
     margin-top: 25px;
   }
 
   .xl\:mt-\[63px\] {
     margin-top: 63px;
-  }
-
-  .xl\:mt-\[px\] {
-    margin-top: px;
-  }
-
-  .xl\:mt-\[-5pxpx\] {
-    margin-top: -5pxpx;
-  }
-
-  .xl\:mt-\[-5px\] {
-    margin-top: -5px;
-  }
-
-  .xl\:ml-\[px\] {
-    margin-left: px;
-  }
-
-  .xl\:ml-\[319px\] {
-    margin-left: 319px;
   }
 
   .xl\:h-\[327px\] {
@@ -3613,10 +3593,6 @@ body {
     margin-left: 2px;
   }
 
-  .\32xl\:ml-\[314px\] {
-    margin-left: 314px;
-  }
-
   .\32xl\:ml-\[34px\] {
     margin-left: 34px;
   }
@@ -3635,6 +3611,10 @@ body {
 
   .\32xl\:ml-\[46px\] {
     margin-left: 46px;
+  }
+
+  .\32xl\:ml-\[499px\] {
+    margin-left: 499px;
   }
 
   .\32xl\:ml-\[500px\] {
@@ -3709,10 +3689,6 @@ body {
     margin-top: 142px;
   }
 
-  .\32xl\:mt-\[164px\] {
-    margin-top: 164px;
-  }
-
   .\32xl\:mt-\[221px\] {
     margin-top: 221px;
   }
@@ -3721,36 +3697,16 @@ body {
     margin-top: 25px;
   }
 
+  .\32xl\:mt-\[28px\] {
+    margin-top: 28px;
+  }
+
   .\32xl\:mt-\[59px\] {
     margin-top: 59px;
   }
 
   .\32xl\:mt-\[9px\] {
     margin-top: 9px;
-  }
-
-  .\32xl\:ml-\[px\] {
-    margin-left: px;
-  }
-
-  .\32xl\:ml-\[4px\] {
-    margin-left: 4px;
-  }
-
-  .\32xl\:ml-\[499px\] {
-    margin-left: 499px;
-  }
-
-  .\32xl\:mt-\[px\] {
-    margin-top: px;
-  }
-
-  .\32xl\:mt-\[2px\] {
-    margin-top: 2px;
-  }
-
-  .\32xl\:mt-\[28px\] {
-    margin-top: 28px;
   }
 
   .\32xl\:h-\[327px\] {
