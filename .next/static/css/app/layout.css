@@ -2991,6 +2991,14 @@ body {
     display: inline-block;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:w-1\/12 {
     width: 8.333333%;
   }
@@ -3443,6 +3451,12 @@ body {
 
   .xl\:w-\[1414px\] {
     width: 1414px;
+  }
+
+  .xl\:space-x-16 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(4rem * var(--tw-space-x-reverse));
+    margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .xl\:p-12 {
